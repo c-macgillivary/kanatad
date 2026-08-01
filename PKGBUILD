@@ -1,6 +1,6 @@
 pkgname=kanata-daemon
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 
 arch=('any')
 depends=('kanata-bin' 'bash' 'systemd')
