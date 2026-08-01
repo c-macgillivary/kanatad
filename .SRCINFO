@@ -1,0 +1,11 @@
+pkgbase = kanata-daemon
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	depends = kanata-bin
+	depends = bash
+	depends = systemd
+	source = kanata-daemon@.service
+	sha256sums = SKIP
+
+pkgname = kanata-daemon
