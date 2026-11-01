@@ -3,7 +3,7 @@ Description=Kanata Keyboard Remapper for %I
 Documentation=https://github.com/jtroo/kanata
 
 [Service]
-EnvironmentFile=-/etc/default/kanata-daemon
+EnvironmentFile=-/etc/default/kanatad
 Type=simple
 ExecStart=/usr/bin/kanata --cfg /home/%I/.config/kanata/config.kbd
 Restart=always
